@@ -63,8 +63,13 @@ p{
 }
 .nav-option{
     display: flex;
-    gap: 40px;
+    gap: 2rem;
     justify-content: space-evenly;
+}
+.bars{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
 }
 .nav-option p:hover{
     cursor: pointer;
@@ -194,14 +199,11 @@ footer{
         margin: 1rem auto;
         padding: 10px 20px;
     }
-    .nav-bar{
-        display: block;
+    .bars{
+        display: flex;
     }
     .nav-option{
-        visibility: hidden;
-    }
-    .menu{
-       visibility: visible;
+        display: none;
     }
     h2{
         font-size: 2rem;
