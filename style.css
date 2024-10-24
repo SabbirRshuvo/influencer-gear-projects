@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* body with font */
+body{
+    font-family: "Mulish", sans-serif;
+}
+/* sheared style with overall projects */
+.container{
+    width: 80%;
+    margin: 4rem auto;
+    
+}
+p{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    opacity: 0.8;
+}
+h2{
+
+}
+h4{
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 35px;
+}
+
+/* specific style in the projects */
+.nav-bar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-option{
+    display: flex;
+    gap: 40px;
+    justify-content: space-evenly;
+}
+.nav-option i{
+    font-size: 1.4rem;
+    color: rgba(0, 0, 0, 0.815);
+}
