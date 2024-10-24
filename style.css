@@ -150,7 +150,7 @@ p{
     gap: 60px;
 }
 .feature-image {
-    width: 40%;
+    width: 500px;
 }
 .feature-image img{
     width: 100%;
@@ -192,6 +192,7 @@ footer{
 @media screen and (max-width: 576px) {
     .container{
         margin: 1rem auto;
+        padding: 10px 20px;
     }
     .nav-bar{
         display: block;
@@ -223,11 +224,15 @@ footer{
         padding: 5px 10px;
         align-items: center;
     }
+    .banner-content{
+        width: 300px;
+        margin-top: 20px;
+    }
     .banner-section{
         flex-direction: column;
     }
     .banner-section img{
-        width: 100%;
+        width: 300px;
     }
     .social-section{
         flex-direction: column;
@@ -251,6 +256,13 @@ footer{
         flex-direction: column;
     }
     .featured-section img{
-        width: 200px;
+        width: 60%;
+    }
+    .feature-content{
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
     }
 }
