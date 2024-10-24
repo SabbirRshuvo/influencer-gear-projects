@@ -13,7 +13,6 @@ body{
 .container{
     width: 80%;
     margin: 4rem auto;
-    
 }
 
 h2{
@@ -46,7 +45,9 @@ p{
     color: white;
     font-size: 1rem;
 }
-
+.menu{
+    visibility: hidden;
+}
 /* specific style in the projects */
 
 /* navbar section style */
@@ -120,8 +121,8 @@ p{
 /* see more section */
 .see-more{
     color: rgba(224, 44, 109, 0.87);
+
     text-align: end;
-    align-items: center;
 }
 /* featured-section */
 .featured-section{
@@ -162,4 +163,71 @@ footer{
     font-size: 2rem;
     margin-left: 20px;
     color: whitesmoke;
+}
+
+/* media responsive for mobile device */
+@media screen and (max-width: 576px) {
+    .container{
+        margin: 1rem auto;
+    }
+    .nav-bar{
+        display: block;
+    }
+    .nav-option{
+        visibility: hidden;
+    }
+    .menu{
+       visibility: visible;
+    }
+    h2{
+        font-size: 2rem;
+        line-height: normal;
+    }
+    h3{
+        font-size: 1.2rem;
+        line-height: normal;
+    }
+    h4{
+        font-size: 1rem;
+        line-height: normal;
+    }
+    p{
+        font-size: 14px;
+        line-height: normal;
+    }
+    .btn{
+        font-size: 14px;
+        padding: 5px 10px;
+        align-items: center;
+    }
+    .banner-section{
+        flex-direction: column;
+    }
+    .banner-section img{
+        width: 100%;
+    }
+    .social-section{
+        flex-direction: column;
+        align-items: center;
+        margin: 0 auto;
+    }
+    .social-section img{
+        width: 150px;
+        margin-top: 50px;
+    }
+    .card-container{
+        grid-template-columns: 1fr;
+    }
+    .card{
+        width: 100%;
+    }
+    .see-more{
+        text-align: center;
+    }
+    .featured-section{
+        flex-direction: column;
+    }
+    .featured-section img{
+        width: 200px;
+    }
 }
