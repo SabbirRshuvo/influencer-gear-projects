@@ -15,21 +15,28 @@ body{
     margin: 4rem auto;
     
 }
-p{
-    font-size: 1rem;
-    font-weight: 600;
-    line-height: 24px;
-    opacity: 0.8;
-}
+
 h2{
     font-size: 3rem;
     font-weight: 700;
     line-height: 70px;
 }
+h3{
+    font-size: 1.8rem;
+    font-weight: 700;
+    line-height: 70px;
+    text-align: center;
+}
 h4{
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
+}
+p{
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 24px;
+    opacity: 0.8;
 }
 .btn{
     padding: 10px 20px;
@@ -83,4 +90,76 @@ h4{
 .social-section img{
     width: 10%;
     gap: 20%;
+}
+/* card section style here */
+.card-container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+.card{
+    margin: 20px 0;
+    background-color: rgb(255, 255, 255);
+    box-shadow: 0 0 40px 0 rgb(0, 0, 0, 0.15);
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    overflow: hidden;
+    border-radius: 10px;
+}
+.card p{
+    max-width: 300px;
+    margin: 10px 0;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+.card  i{
+    color: rgb(251, 130, 0);
+}
+
+/* see more section */
+.see-more{
+    color: rgba(224, 44, 109, 0.87);
+    text-align: end;
+    align-items: center;
+}
+/* featured-section */
+.featured-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+.feature-image {
+    width: 40%;
+}
+.feature-image img{
+    width: 100%;
+}
+.feature-content{
+    width: 40%;
+    margin-top: 20px;
+}
+.feature-content p{
+    margin: 30px 0;
+    max-width: 400px;
+    line-height: 1.5;
+    word-wrap: break-word;
+}
+
+/* footer section style */
+footer{
+    background-color: rgba(15, 2, 2, 0.37);
+    padding-bottom: 30px ;
+}
+.footer-section{
+    text-align: center;
+    padding-top: 50px;
+}
+.footer-section p{
+    margin: 10px 0;
+}
+.footer-section i{
+    font-size: 2rem;
+    margin-left: 20px;
+    color: whitesmoke;
 }
